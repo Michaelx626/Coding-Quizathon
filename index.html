@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quizathon</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <button class="scores">View High Scores</button>
+        <h1 id="countdown">Your Timer Will Begin Here</h1>
+    </header>
+    
+    <section class="remove">
+        <section class="start">  
+                <h2>Coding Quizathon</h2>
+                <p>
+                    Welcome to the Coding Quizathon. Here you will be given 5 coding questions in multiple choices. 
+                    You will be given 30 seconds. Each mistake will deduct 5 seconds so beware! Good luck!
+                </p>
+                <button type="submit" id="submits" class="btn">Start</button>
+        </section>
+
+        <section class="questions">
+            <h2 id="showQuestions"></h2>
+            <input type="submit" id="userA" class="picksA"></input>
+            <input type="submit" id="userB" class="picksB"></input>
+            <input type="submit" id="userC" class="picksC"></input>
+            <input type="submit" id="userD" class="picksD"></input>
+        </section>
+
+        <section class="ending">
+            <h2>All Done! Thank you for playing!</h2>
+            <h3 id="showScores"></h3>
+            <h4>Enter your Initials below:</h4>
+            <input type="text" name="initials" id="savedName">
+            <button type="submit" id="submitScore" class="btn">Submit Score</button>
+        </section>
+    </section>
+
+    <section class="highScores">
+        <h2>High Scores! Top 5!</h2>
+        <ol id="lists"></ol>
+        <button type="submit" id="goBack" class="btn">Go Back</button>
+        <button type="submit" id="clear" class="btn">Clear HighScores</button>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

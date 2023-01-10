@@ -1,0 +1,84 @@
+:root{
+    --purple: rgb(50,29,112);
+    --hover: rgb(182,112,225);
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+h1{
+    font-size: 110%;
+}
+
+body{
+    overflow:hidden;
+}
+
+.start, .questions, .ending, .highScores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p{
+    font-weight: bold;
+}
+
+.btn, .scores{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: var(--purple);
+    color: white;
+    font-size: 120%;
+}
+
+.btn:hover, .scores:hover{
+    background-color: var(--hover);
+}
+
+#userA, #userB, #userC, #userD{
+    background-color: var(--purple);
+    color: white;
+    font-size: 120%;
+}
+
+#userA:hover, #userB:hover, #userC:hover, #userD:hover{
+    background-color: var(--hover);
+    cursor:pointer;
+}
+
+input{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+}
+
+ol{
+    font-weight: bold;
+}
+
+button{
+    margin: 5px;
+}
+
+#display{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
