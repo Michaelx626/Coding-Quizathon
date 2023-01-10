@@ -8,11 +8,11 @@
 
 <h2 align="center"> Usage </h2>
 <p align="center"> You can access my project, Coding Quizathon, by simply clicking on this highlighted text. </p>
-<p align="center"> <a href="https://michaelx626.github.io/Most-Secure-Password-Generator/index.html" target="_blank"> Here </a> </p>
+<p align="center"> <a href="https://michaelx626.github.io/Coding-Quizathon/index.html" target="_blank"> Here </a> </p>
 
 <h2 align="center"> Screenshots </h2>
 
-![text](https://github.com/Michaelx626/Most-Secure-Password-Generator/blob/main/assets/CSS/Screen%20Shot%202022-12-22%20at%2011.13.55%20PM.png)
+![text](https://github.com/Michaelx626/Coding-Quizathon/blob/main/assets/pictures/Screen%20Shot%202023-01-10%20at%2012.00.50%20AM.png)
 
 <h2 align="center">  Credit </h2>
 <p align="center"> N/A
